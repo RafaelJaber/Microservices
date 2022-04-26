@@ -10,7 +10,7 @@ builder.Services.AddControllersWithViews();
 // Configuração de autenticação
 builder.Services.AddAuthentication(options =>
 {
-    options.DefaultScheme = "Coockies";
+    options.DefaultScheme = "Cookies";
     options.DefaultChallengeScheme = "oidc";
 
 })
